@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Premium | Front-End & Análise de Dados</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Portfólio Premium de Desenvolvimento Front-End & Análise de Dados. Experiências web modernas e visualizações de dados interativas.">
+    <meta name="keywords" content="Front-End, Análise de Dados, Portfólio, React, Next.js, Python, Chart.js, SQL, TypeScript, Dashboard">
+    <meta name="author" content="Desenvolvedor Front-End & Analista de Dados">
+    
+    <!-- Open Graph (Facebook/LinkedIn) -->
+    <meta property="og:title" content="Portfólio Premium | Front-End & Análise de Dados">
+    <meta property="og:description" content="Explore dashboards interativos e projetos web de alto desempenho na interseção de engenharia de software e ciência de dados.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://seudominio.com">
+    <meta property="og:image" content="https://seudominio.com/assets/og-image.png">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Portfólio Premium | Front-End & Análise de Dados">
+    <meta name="twitter:description" content="Explore dashboards interativos e projetos web de alto desempenho na interseção de engenharia de software e ciência de dados.">
+    <meta name="twitter:image" content="https://seudominio.com/assets/og-image.png">
+    
+    <!-- Robots indexation -->
+    <meta name="robots" content="index, follow">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+    
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- Acessibilidade: Link para pular navegação direta ao conteúdo principal -->
+    <a href="#main-content" class="sr-only sr-only-focusable">Pular para o conteúdo principal</a>
+
+    <!-- Header Principal -->
+    <header class="main-header">
+        <div class="header-container">
+            <a href="#home" class="logo" aria-label="Voltar para a página inicial">
+                <span class="logo-accent">&lt;</span>Dev<span class="logo-divider">&amp;</span>Data<span class="logo-accent">/&gt;</span>
+            </a>
+            
+            <button class="mobile-menu-toggle" aria-controls="primary-navigation" aria-expanded="false" aria-label="Abrir menu de navegação">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
+            <nav id="primary-navigation" class="nav-menu" aria-label="Menu de Navegação Principal">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link">Início</a></li>
+                    <li><a href="#about" class="nav-link">Sobre Mim</a></li>
+                    <li><a href="#projects" class="nav-link">Projetos</a></li>
+                    <li><a href="#dashboard" class="nav-link">Dashboard</a></li>
+                    <li><a href="#contact" class="nav-link">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main id="main-content">
+
+        <!-- Seção 1: Home (Hero Section) -->
+        <section id="home" class="hero-section" aria-labelledby="hero-title">
+            <div class="hero-bg-glow" aria-hidden="true"></div>
+            <div class="container hero-container">
+                <h1 id="hero-title" class="hero-headline">
+                    Transformando Dados em Interfaces. <br>
+                    <span class="gradient-text">Construindo o Futuro da Web Visual.</span>
+                </h1>
+                <p class="hero-subheading">
+                    Olá, eu sou um Desenvolvedor Front-End &amp; Analista de Dados. Especialista em projetar aplicações web de alto desempenho e traduzir grandes volumes de dados complexos em dashboards interativos intuitivos e acionáveis.
+                </p>
+                <div class="hero-actions">
+                    <a href="#dashboard" class="btn btn-primary" id="btn-explore-dashboard" aria-label="Navegar até a seção de telemetria e dashboard interativo">
+                        <span class="btn-glow"></span>
+                        Explorar Dashboard
+                    </a>
+                    <a href="#projects" class="btn btn-secondary" id="btn-view-projects" aria-label="Navegar até a seção de projetos e portfólio">
+                        Ver Projetos
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção 2: Sobre Mim -->
+        <section id="about" class="about-section" aria-labelledby="about-title">
+            <div class="container">
+                <h2 id="about-title" class="section-title">Sobre Mim</h2>
+                <div class="about-grid">
+                    
+                    <!-- Coluna Texto -->
+                    <div class="about-text-column">
+                        <p class="about-lead">
+                            Minha jornada profissional vive na exata interseção entre a engenharia de software e a ciência de dados. Acredito firmemente que um dado só é verdadeiramente poderoso quando é compreensível e acionável. Por isso, me especializei em unir a precisão matemática e estatística da análise de dados à sofisticação e fluidez do desenvolvimento front-end moderno.
+                        </p>
+                        <p class="about-body">
+                            Com sólida experiência na construção de interfaces reativas utilizando frameworks modernos e na manipulação avançada de pipelines de dados, crio soluções completas de ponta a ponta. Minha missão diária é extrair insights valiosos de fontes complexas e traduzi-los em experiências digitais limpas, rápidas e acessíveis, ajudando empresas a tomarem decisões de negócio inteligentes e baseadas em evidências.
+                        </p>
+                    </div>
+                    
+                    <!-- Coluna Habilidades (Badges) -->
+                    <div class="about-skills-column" aria-label="Habilidades e Competências Profissionais">
+                        <div class="skills-panel glass-card">
+                            <h3 class="skills-panel-title">Ficha Técnica &amp; Competências</h3>
+                            
+                            <div class="skills-category">
+                                <h4>Core Front-End</h4>
+                                <div class="skills-badges">
+                                    <span class="badge badge-frontend">React.js</span>
+                                    <span class="badge badge-frontend">Next.js</span>
+                                    <span class="badge badge-frontend">TypeScript</span>
+                                    <span class="badge badge-frontend">Tailwind CSS</span>
+                                    <span class="badge badge-frontend">JavaScript (ES6+)</span>
+                                    <span class="badge badge-frontend">HTML5/CSS3</span>
+                                </div>
+                            </div>
+                            
+                            <div class="skills-category">
+                                <h4>Data Science &amp; Analytics</h4>
+                                <div class="skills-badges">
+                                    <span class="badge badge-datascience">Python</span>
+                                    <span class="badge badge-datascience">SQL (PostgreSQL)</span>
+                                    <span class="badge badge-datascience">Pandas</span>
+                                    <span class="badge badge-datascience">NumPy</span>
+                                    <span class="badge badge-datascience">Scikit-Learn</span>
+                                </div>
+                            </div>
+                            
+                            <div class="skills-category">
+                                <h4>Visualização de Dados</h4>
+                                <div class="skills-badges">
+                                    <span class="badge badge-dataviz">Chart.js</span>
+                                    <span class="badge badge-dataviz">ApexCharts</span>
+                                    <span class="badge badge-dataviz">D3.js</span>
+                                    <span class="badge badge-dataviz">Tailwind Charts</span>
+                                </div>
+                            </div>
+                            
+                            <div class="skills-category">
+                                <h4>Ferramentas &amp; DevOps</h4>
+                                <div class="skills-badges">
+                                    <span class="badge badge-tools">Git</span>
+                                    <span class="badge badge-tools">Docker</span>
+                                    <span class="badge badge-tools">Vercel</span>
+                                    <span class="badge badge-tools">Supabase</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção 3: Projetos -->
+        <section id="projects" class="projects-section" aria-labelledby="projects-title">
+            <div class="container">
+                <h2 id="projects-title" class="section-title">Projetos em Destaque</h2>
+                <p class="section-subtitle">Casos práticos de interfaces eficientes e análises aprofundadas.</p>
+                
+                <div class="projects-grid">
+                    
+                    <!-- Card Projeto 1 -->
+                    <article class="project-card glass-card" aria-labelledby="project1-title">
+                        <div class="project-header">
+                            <span class="project-category">Front-End / Data Visualization</span>
+                            <h3 id="project1-title" class="project-title">Plataforma de Negociação de Criptoativos Aether</h3>
+                        </div>
+                        <div class="project-body">
+                            <p class="project-description">
+                                Interface moderna e de ultra-alta performance para corretoras de criptomoedas. Inclui gráficos de velas (candlestick) atualizados via WebSocket, livros de ofertas em tempo real e painel dinâmico para acompanhamento de carteira.
+                            </p>
+                            <div class="project-tech-list" aria-label="Tecnologias utilizadas no projeto Aether">
+                                <span class="tech-tag">React.js</span>
+                                <span class="tech-tag">Tailwind CSS</span>
+                                <span class="tech-tag">ApexCharts</span>
+                                <span class="tech-tag">WebSocket API</span>
+                                <span class="tech-tag">TypeScript</span>
+                            </div>
+                        </div>
+                        <div class="project-footer">
+                            <div class="metric-container" aria-label="Métrica de impacto do projeto">
+                                <span class="metric-label">Métrica de Impacto:</span>
+                                <span class="metric-value text-teal">Redução de 42% no tempo de renderização de dados de mercado.</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card Projeto 2 -->
+                    <article class="project-card glass-card" aria-labelledby="project2-title">
+                        <div class="project-header">
+                            <span class="project-category">Data Science / Analytics</span>
+                            <h3 id="project2-title" class="project-title">Modelo de Previsão de Cancelamento de SaaS (Churn)</h3>
+                        </div>
+                        <div class="project-body">
+                            <p class="project-description">
+                                Análise exploratória e modelo de aprendizado de máquina para identificar clientes corporativos sob risco de cancelamento. Acompanha uma aplicação web interativa onde o time de sucesso do cliente pode simular cenários alterando variáveis operacionais.
+                            </p>
+                            <div class="project-tech-list" aria-label="Tecnologias utilizadas no projeto ChurnGuard">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Scikit-Learn</span>
+                                <span class="tech-tag">Pandas</span>
+                                <span class="tech-tag">Streamlit</span>
+                                <span class="tech-tag">Jupyter Notebook</span>
+                            </div>
+                        </div>
+                        <div class="project-footer">
+                            <div class="metric-container" aria-label="Métrica de impacto do projeto">
+                                <span class="metric-label">Métrica de Impacto:</span>
+                                <span class="metric-value text-teal">Acurácia de 89% (F1-score) mitigando a perda de receita recorrente em 15%.</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card Projeto 3 -->
+                    <article class="project-card glass-card" aria-labelledby="project3-title">
+                        <div class="project-header">
+                            <span class="project-category">Front-End / Creative UI</span>
+                            <h3 id="project3-title" class="project-title">Synthetix OS</h3>
+                        </div>
+                        <div class="project-body">
+                            <p class="project-description">
+                                Um ambiente virtual que simula um sistema operacional completo direto no navegador. Conta com gerenciamento de janelas arrastáveis, reprodutor de mídia persistente, terminal interativo integrado e editor de textos em Markdown.
+                            </p>
+                            <div class="project-tech-list" aria-label="Tecnologias utilizadas no projeto Synthetix OS">
+                                <span class="tech-tag">Next.js</span>
+                                <span class="tech-tag">Framer Motion</span>
+                                <span class="tech-tag">Styled Components</span>
+                                <span class="tech-tag">Zustand</span>
+                            </div>
+                        </div>
+                        <div class="project-footer">
+                            <div class="metric-container" aria-label="Métrica de impacto do projeto">
+                                <span class="metric-label">Métrica de Impacto:</span>
+                                <span class="metric-value text-teal">Score 100/100 na avaliação de performance do Google Lighthouse.</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card Projeto 4 -->
+                    <article class="project-card glass-card" aria-labelledby="project4-title">
+                        <div class="project-header">
+                            <span class="project-category">Data Science / Visualização Geospacial</span>
+                            <h3 id="project4-title" class="project-title">Monitoramento de Qualidade do Ar e Emissões</h3>
+                        </div>
+                        <div class="project-body">
+                            <p class="project-description">
+                                Dashboard que consome APIs e processa dados abertos de sensores de poluição das principais metrópoles globais. Gera mapas de calor interativos e modelos autoregressivos para prever picos de poluição atmosférica nos próximos 7 dias.
+                            </p>
+                            <div class="project-tech-list" aria-label="Tecnologias utilizadas no projeto EcoPulse">
+                                <span class="tech-tag">Python (Flask)</span>
+                                <span class="tech-tag">Leaflet.js</span>
+                                <span class="tech-tag">Chart.js</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                                <span class="tech-tag">Docker</span>
+                            </div>
+                        </div>
+                        <div class="project-footer">
+                            <div class="metric-container" aria-label="Métrica de impacto do projeto">
+                                <span class="metric-label">Métrica de Impacto:</span>
+                                <span class="metric-value text-teal">Processamento de mais de 50 mil registros via clusterização dinâmica.</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção 4: Dashboard Interativo (The Portfolio Pulse) -->
+        <section id="dashboard" class="dashboard-section" aria-labelledby="dashboard-title">
+            <div class="container">
+                <h2 id="dashboard-title" class="section-title">The Portfolio Pulse</h2>
+                <p class="section-subtitle">Telemetria de atividades de desenvolvimento e métricas operacionais interativas.</p>
+                
+                <!-- Controle de Filtros -->
+                <div class="dashboard-controls" aria-label="Controle de filtros de tempo do painel">
+                    <button type="button" id="btn-filter-30" class="btn-filter active" aria-pressed="true" aria-label="Exibir dados dos últimos 30 dias">Últimos 30 Dias</button>
+                    <button type="button" id="btn-filter-6m" class="btn-filter" aria-pressed="false" aria-label="Exibir dados dos últimos 6 meses">Últimos 6 Meses</button>
+                    <button type="button" id="btn-filter-all" class="btn-filter" aria-pressed="false" aria-label="Exibir dados de todo o período">Todo o Período</button>
+                </div>
+                
+                <!-- Grid de KPIs (Métricas Rápidas) -->
+                <div class="kpi-grid">
+                    <!-- KPI 1 -->
+                    <div class="kpi-card glass-card" id="kpi-card-commits">
+                        <div class="kpi-icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="M12 6v6l4 2"/></svg>
+                        </div>
+                        <div class="kpi-content">
+                            <h3 class="kpi-label">Commits Anuais</h3>
+                            <div class="kpi-value-wrapper">
+                                <span class="kpi-value mono" id="kpi-commits">1,842</span>
+                                <span class="kpi-change trend-up" id="kpi-commits-change" aria-label="Aumento de 12.4% comparado ao ano anterior">+12.4% vs 2025</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- KPI 2 -->
+                    <div class="kpi-card glass-card" id="kpi-card-uptime">
+                        <div class="kpi-icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+                        </div>
+                        <div class="kpi-content">
+                            <h3 class="kpi-label">Uptime de Projetos</h3>
+                            <div class="kpi-value-wrapper">
+                                <span class="kpi-value mono" id="kpi-uptime">99.98%</span>
+                                <span class="kpi-subtext" id="kpi-uptime-period">Últimos 12 meses</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- KPI 3 -->
+                    <div class="kpi-card glass-card" id="kpi-card-stack">
+                        <div class="kpi-icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16.5 9.4 7.55 4.24a1.79 1.79 0 0 0-1.8 0l-4 2.31a1.78 1.78 0 0 0-.9 1.55v4.6a1.78 1.78 0 0 0 .9 1.55l4 2.3a1.79 1.79 0 0 0 1.8 0L16.5 11.4"/></svg>
+                        </div>
+                        <div class="kpi-content">
+                            <h3 class="kpi-label">Stack Dominante</h3>
+                            <div class="kpi-value-wrapper">
+                                <span class="kpi-value mono" id="kpi-stack">TypeScript</span>
+                                <span class="kpi-subtext" id="kpi-stack-ratio">54.2% do codebase</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- KPI 4 -->
+                    <div class="kpi-card glass-card" id="kpi-card-coffee">
+                        <div class="kpi-icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><path d="M6 1v3"/><path d="M10 1v3"/><path d="M14 1v3"/></svg>
+                        </div>
+                        <div class="kpi-content">
+                            <h3 class="kpi-label">Café Consumido</h3>
+                            <div class="kpi-value-wrapper">
+                                <span class="kpi-value mono" id="kpi-coffee">742 xícaras</span>
+                                <span class="kpi-subtext">estimado</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Painel de Gráficos -->
+                <div class="charts-container">
+                    <!-- Gráfico A: Volume de Commits -->
+                    <div class="chart-card glass-card">
+                        <h3 class="chart-title">Frequência e Volume de Commits</h3>
+                        <div class="chart-wrapper">
+                            <canvas id="commitsChart" aria-label="Gráfico de área mostrando o volume de commits nos últimos meses" role="img">
+                                <p>Seu navegador não oferece suporte para canvas. O gráfico de volume de commits seria renderizado aqui.</p>
+                            </canvas>
+                        </div>
+                    </div>
+                    
+                    <!-- Gráfico B: Horas por Categoria -->
+                    <div class="chart-card glass-card">
+                        <h3 class="chart-title">Distribuição de Horas por Categoria</h3>
+                        <div class="chart-wrapper">
+                            <canvas id="hoursChart" aria-label="Gráfico de rosca exibindo a distribuição de tempo trabalhado por categoria de projeto" role="img">
+                                <p>Seu navegador não oferece suporte para canvas. O gráfico de distribuição de horas seria renderizado aqui.</p>
+                            </canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção 5: Formulário de Contato -->
+        <section id="contact" class="contact-section" aria-labelledby="contact-title">
+            <div class="container">
+                <h2 id="contact-title" class="section-title">Iniciar um Projeto</h2>
+                <p class="section-subtitle">Vamos conectar os dados à interface e gerar resultados reais.</p>
+                
+                <div class="contact-grid">
+                    
+                    <!-- Coluna da Esquerda: Mockup Terminal -->
+                    <div class="contact-info-column" aria-label="Informações de contato em formato terminal">
+                        <div class="terminal-mockup glass-card">
+                            <div class="terminal-header">
+                                <span class="terminal-dot close" aria-hidden="true"></span>
+                                <span class="terminal-dot minimize" aria-hidden="true"></span>
+                                <span class="terminal-dot maximize" aria-hidden="true"></span>
+                                <span class="terminal-title">contact_sys.sh</span>
+                            </div>
+                            <div class="terminal-body mono">
+                                <p class="terminal-line"><span class="terminal-prompt">$</span> cat developer.json</p>
+                                <pre class="terminal-output"><code>{
+  "nome": "Dev & Data Specialist",
+  "disponibilidade": "Aberto para propostas freelas e CLT",
+  "localizacao": "Brasil (UTC-3)",
+  "interesses": [
+    "Engenharia de Interface",
+    "Visualização de Dados",
+    "Pipelines Analytics"
+  ],
+  "status_atual": "Pronto para novos desafios"
+}</code></pre>
+                                <p class="terminal-line"><span class="terminal-prompt">$</span> curl -X GET info_contato</p>
+                                <p class="terminal-output text-teal">e-mail: contato@seudominio.com</p>
+                                <p class="terminal-line"><span class="terminal-prompt">$</span> <span class="blink">_</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Coluna da Direita: Formulário -->
+                    <div class="contact-form-column">
+                        <div class="form-wrapper glass-card">
+                            <form id="contact-form" novalidate aria-label="Formulário para envio de mensagem de contato">
+                                
+                                <div class="form-group">
+                                    <label for="contact-name" class="form-label">Nome</label>
+                                    <input type="text" id="contact-name" name="name" class="form-input" placeholder="Seu nome" required aria-required="true">
+                                    <span class="error-msg hidden" id="error-name" aria-live="polite"></span>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="contact-email" class="form-label">E-mail</label>
+                                    <input type="email" id="contact-email" name="email" class="form-input" placeholder="seu.email@exemplo.com" required aria-required="true">
+                                    <span class="error-msg hidden" id="error-email" aria-live="polite"></span>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="contact-subject" class="form-label">Objetivo do Contato</label>
+                                    <select id="contact-subject" name="subject" class="form-select" required aria-required="true">
+                                        <option value="" disabled selected>Selecione o objetivo...</option>
+                                        <option value="web-dev">Desenvolvimento de Projeto Web</option>
+                                        <option value="data-analysis">Análise de Dados / Inteligência de Negócios</option>
+                                        <option value="opportunity">Oportunidade Profissional (CLT / PJ)</option>
+                                        <option value="other">Outro Assunto</option>
+                                    </select>
+                                    <span class="error-msg hidden" id="error-subject" aria-live="polite"></span>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <div class="textarea-header">
+                                        <label for="contact-message" class="form-label">Mensagem</label>
+                                        <span class="char-counter" id="char-count-display" aria-live="polite">0 / 500</span>
+                                    </div>
+                                    <textarea id="contact-message" name="message" class="form-textarea" rows="5" maxlength="500" placeholder="Olá! Gostaria de conversar sobre..." required aria-required="true"></textarea>
+                                    <span class="error-msg hidden" id="error-message" aria-live="polite"></span>
+                                </div>
+                                
+                                <button type="submit" id="btn-submit-contact" class="btn btn-primary btn-submit">
+                                    <span class="btn-text">Enviar Mensagem</span>
+                                    <span class="spinner hidden" aria-hidden="true"></span>
+                                </button>
+                                
+                                <!-- Mensagens de Status de Envio -->
+                                <div id="submit-success-msg" class="submit-feedback success-feedback hidden" role="alert">
+                                    <svg class="success-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" width="20" height="20">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                    <span>Mensagem enviada com sucesso!</span>
+                                </div>
+                                
+                                <div id="submit-error-msg" class="submit-feedback error-feedback hidden" role="alert">
+                                    <span>Erro ao enviar a mensagem. Por favor, tente novamente.</span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="main-footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <span class="logo-accent">&lt;</span>Dev<span class="logo-divider">&amp;</span>Data<span class="logo-accent">/&gt;</span>
+                <p class="footer-meta">Exibindo telemetria profissional ativa em tempo real.</p>
+            </div>
+            
+            <div class="footer-nav">
+                <nav aria-label="Links Rápidos do Rodapé">
+                    <ul class="footer-links">
+                        <li><a href="#home">Voltar ao Topo</a></li>
+                        <li><a href="#about">Trajetória</a></li>
+                        <li><a href="#projects">Portfólio</a></li>
+                        <li><a href="#dashboard">Indicadores</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026. Desenvolvido com foco em performance e dados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Tag Script de Comportamento Dinâmico -->
+    <script src="index.js" type="module" defer></script>
+</body>
+</html>
