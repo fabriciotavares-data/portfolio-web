@@ -141,7 +141,7 @@ export const Contact = () => {
               <div className="terminal-body mono">
                 <p className="terminal-line"><span className="terminal-prompt">$</span> cat developer.json</p>
                 <pre className="terminal-output"><code>{`{
-  "nome": "Dev & Data Specialist",
+  "nome": "Fabricio Salvador Tavares",
   "disponibilidade": "Aberto para propostas freelas e CLT",
   "localizacao": "Brasil (UTC-3)",
   "interesses": [
@@ -152,7 +152,15 @@ export const Contact = () => {
   "status_atual": "Pronto para novos desafios"
 }`}</code></pre>
                 <p className="terminal-line"><span className="terminal-prompt">$</span> curl -X GET info_contato</p>
-                <p className="terminal-output text-teal">e-mail: contato@seudominio.com</p>
+                <p className="terminal-output text-teal">
+                  e-mail: <a href="mailto:fahsalvadortavares02@gmail.com" className="hover:underline text-teal-400">fahsalvadortavares02@gmail.com</a>
+                </p>
+                <p className="terminal-output text-teal">
+                  github: <a href="https://github.com/fabriciotavares-data" target="_blank" rel="noopener noreferrer" className="hover:underline text-teal-400">github.com/fabriciotavares-data</a>
+                </p>
+                <p className="terminal-output text-teal">
+                  linkedin: <a href="https://linkedin.com/in/fabricio-salvador-tavares" target="_blank" rel="noopener noreferrer" className="hover:underline text-teal-400">linkedin.com/in/fabricio-salvador-tavares</a>
+                </p>
                 <p className="terminal-line"><span className="terminal-prompt">$</span> <span className="blink">_</span></p>
               </div>
             </div>

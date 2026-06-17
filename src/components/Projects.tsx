@@ -5,6 +5,7 @@ interface Project {
   description: string;
   technologies: string[];
   impact: string;
+  url?: string;
 }
 
 export const Projects = () => {
@@ -21,21 +22,24 @@ export const Projects = () => {
       category: 'Data Science / Analytics',
       description: 'Análise exploratória e modelo de aprendizado de máquina para identificar clientes corporativos sob risco de cancelamento. Acompanha uma aplicação web interativa onde o time de sucesso do cliente pode simular cenários alterando variáveis operacionais.',
       technologies: ['Python', 'Scikit-Learn', 'Pandas', 'Streamlit', 'Jupyter Notebook'],
-      impact: 'Acurácia de 89% (F1-score) mitigando a perda de receita recorrente em 15%.'
+      impact: 'Acurácia de 89% (F1-score) mitigando a perda de receita recorrente em 15%..',
+      url: 'http://localhost:8501/'
     },
     {
       title: 'Synthetix OS',
       category: 'Front-End / Creative UI',
       description: 'Um ambiente virtual que simula um sistema operacional completo direto no navegador. Conta com gerenciamento de janelas arrastáveis, reprodutor de mídia persistente, terminal interativo integrado e editor de textos em Markdown.',
       technologies: ['Next.js', 'Framer Motion', 'Styled Components', 'Zustand'],
-      impact: 'Score 100/100 na avaliação de performance do Google Lighthouse.'
+      impact: 'Score 100/100 na avaliação de performance do Google Lighthouse.',
+      url: 'http://localhost:5174/'
     },
     {
       title: 'Monitoramento de Qualidade do Ar e Emissões',
       category: 'Data Science / Visualização Geospacial',
       description: 'Dashboard que consome APIs e processa dados abertos de sensores de poluição das principais metrópoles globais. Gera mapas de calor interativos e modelos autoregressivos para prever picos de poluição atmosférica nos próximos 7 dias.',
       technologies: ['Python (Flask)', 'Leaflet.js', 'Chart.js', 'PostgreSQL', 'Docker'],
-      impact: 'Processamento de mais de 50 mil registros via clusterização dinâmica.'
+      impact: 'Processamento de mais de 50 mil registros via clusterização dinâmica.',
+      url: 'http://localhost:8080/'
     }
   ];
 
@@ -60,11 +64,32 @@ export const Projects = () => {
                   ))}
                 </div>
               </div>
-              <div className="project-footer">
+              <div className="project-footer" style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
                 <div className="metric-container" aria-label="Métrica de impacto do projeto">
                   <span className="metric-label">Métrica de Impacto:</span>
                   <span className="metric-value text-teal">{project.impact}</span>
                 </div>
+                {project.url && (
+                  <a
+                    href={project.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-secondary"
+                    style={{
+                      alignSelf: 'flex-start',
+                      padding: '6px 12px',
+                      fontSize: '11px',
+                      textDecoration: 'none',
+                      display: 'inline-flex',
+                      alignItems: 'center',
+                      gap: '4px',
+                      marginTop: '4px',
+                      border: '1px solid var(--border)'
+                    }}
+                  >
+                    Acessar Aplicação →
+                  </a>
+                )}
               </div>
             </article>
           ))}
