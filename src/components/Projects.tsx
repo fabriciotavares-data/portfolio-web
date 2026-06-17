@@ -5,7 +5,6 @@ interface Project {
   description: string;
   technologies: string[];
   impact: string;
-  url?: string;
   githubUrl?: string;
 }
 
@@ -25,7 +24,6 @@ export const Projects = () => {
       description: 'Análise exploratória e modelo de aprendizado de máquina para identificar clientes corporativos sob risco de cancelamento. Acompanha uma aplicação web interativa onde o time de sucesso do cliente pode simular cenários alterando variáveis operacionais.',
       technologies: ['Python', 'Scikit-Learn', 'Pandas', 'Streamlit', 'Jupyter Notebook'],
       impact: 'Acurácia de 89% (F1-score) mitigando a perda de receita recorrente em 15%..',
-      url: 'http://localhost:8501/',
       githubUrl: 'https://github.com/fabriciotavares-data/churn-guard'
     },
     {
@@ -34,7 +32,6 @@ export const Projects = () => {
       description: 'Um ambiente virtual que simula um sistema operacional completo direto no navegador. Conta com gerenciamento de janelas arrastáveis, reprodutor de mídia persistente, terminal interativo integrado e editor de textos em Markdown.',
       technologies: ['Next.js', 'Framer Motion', 'Styled Components', 'Zustand'],
       impact: 'Score 100/100 na avaliação de performance do Google Lighthouse.',
-      url: 'http://localhost:5174/',
       githubUrl: 'https://github.com/fabriciotavares-data/synthetix-os'
     },
     {
@@ -43,7 +40,6 @@ export const Projects = () => {
       description: 'Dashboard que consome APIs e processa dados abertos de sensores de poluição das principais metrópoles globais. Gera mapas de calor interativos e modelos autoregressivos para prever picos de poluição atmosférica nos próximos 7 dias.',
       technologies: ['Python (Flask)', 'Leaflet.js', 'Chart.js', 'PostgreSQL', 'Docker'],
       impact: 'Processamento de mais de 50 mil registros via clusterização dinâmica.',
-      url: 'http://localhost:8080/',
       githubUrl: 'https://github.com/fabriciotavares-data/air-quality'
     }
   ];
@@ -74,46 +70,27 @@ export const Projects = () => {
                   <span className="metric-label">Métrica de Impacto:</span>
                   <span className="metric-value text-teal">{project.impact}</span>
                 </div>
-                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px', marginTop: '4px' }}>
-                  {project.url && (
-                    <a
-                      href={project.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="btn btn-primary"
-                      style={{
-                        padding: '6px 12px',
-                        fontSize: '11px',
-                        textDecoration: 'none',
-                        display: 'inline-flex',
-                        alignItems: 'center',
-                        gap: '4px',
-                        border: '1px solid var(--border)'
-                      }}
-                    >
-                      Acessar Aplicação →
-                    </a>
-                  )}
-                  {project.githubUrl && (
-                    <a
-                      href={project.githubUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="btn btn-secondary"
-                      style={{
-                        padding: '6px 12px',
-                        fontSize: '11px',
-                        textDecoration: 'none',
-                        display: 'inline-flex',
-                        alignItems: 'center',
-                        gap: '4px',
-                        border: '1px solid var(--border)'
-                      }}
-                    >
-                      Ver no GitHub
-                    </a>
-                  )}
-                </div>
+                {project.githubUrl && (
+                  <a
+                    href={project.githubUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-secondary"
+                    style={{
+                      alignSelf: 'flex-start',
+                      padding: '6px 12px',
+                      fontSize: '11px',
+                      textDecoration: 'none',
+                      display: 'inline-flex',
+                      alignItems: 'center',
+                      gap: '4px',
+                      marginTop: '4px',
+                      border: '1px solid var(--border)'
+                    }}
+                  >
+                    Ver no GitHub →
+                  </a>
+                )}
               </div>
             </article>
           ))}
