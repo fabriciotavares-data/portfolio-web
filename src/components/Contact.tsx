@@ -142,14 +142,14 @@ export const Contact = () => {
                 <p className="terminal-line"><span className="terminal-prompt">$</span> cat developer.json</p>
                 <pre className="terminal-output"><code>{`{
   "nome": "Fabricio Salvador Tavares",
-  "disponibilidade": "Aberto para propostas freelas e CLT",
+  "disponibilidade": "Buscando vagas de Estágio e Trainee",
   "localizacao": "Brasil (UTC-3)",
   "interesses": [
-    "Engenharia de Interface",
-    "Visualização de Dados",
-    "Pipelines Analytics"
+    "Análise de Dados & BI",
+    "Automação de Processos",
+    "Desenvolvimento de Aplicações"
   ],
-  "status_atual": "Pronto para novos desafios"
+  "status_atual": "Foco total em evolução técnica"
 }`}</code></pre>
                 <p className="terminal-line"><span className="terminal-prompt">$</span> curl -X GET info_contato</p>
                 <p className="terminal-output text-teal">

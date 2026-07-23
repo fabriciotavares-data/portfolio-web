@@ -34,6 +34,7 @@ export const Header = () => {
           <ul className="nav-list">
             <li><a href="#home" className="nav-link" onClick={closeMenu}>Início</a></li>
             <li><a href="#about" className="nav-link" onClick={closeMenu}>Sobre Mim</a></li>
+            <li><a href="#experience" className="nav-link" onClick={closeMenu}>Trajetória</a></li>
             <li><a href="#projects" className="nav-link" onClick={closeMenu}>Projetos</a></li>
             <li><a href="#contact" className="nav-link" onClick={closeMenu}>Contato</a></li>
           </ul>

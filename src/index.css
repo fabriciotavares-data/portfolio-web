@@ -1000,6 +1000,136 @@ ul {
     }
 }
 
+/* ==========================================================================
+   EXPERIENCE SECTION & TIMELINE
+   ========================================================================== */
+.experience-section {
+    padding: 8rem 0;
+    position: relative;
+}
+
+.timeline-container {
+    position: relative;
+    max-width: 800px;
+    margin: 4rem auto 0 auto;
+    padding-left: 2rem;
+}
+
+.timeline-line {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(to bottom, var(--cyber-teal), var(--electric-violet));
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 3.5rem;
+}
+
+.timeline-item:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-dot-outer {
+    position: absolute;
+    left: -2.35rem; /* center on the line */
+    top: 1.5rem;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: rgba(0, 242, 254, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timeline-dot-inner {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--cyber-teal);
+    box-shadow: 0 0 8px var(--cyber-teal);
+}
+
+.timeline-content {
+    padding: 2rem;
+    transition: var(--transition-smooth);
+}
+
+.timeline-content:hover {
+    transform: translateX(5px);
+    border-color: rgba(0, 242, 254, 0.4);
+    box-shadow: 0 10px 30px rgba(0, 242, 254, 0.05);
+}
+
+.timeline-header {
+    margin-bottom: 1.25rem;
+}
+
+.experience-period {
+    display: inline-block;
+    padding: 4px 10px;
+    font-size: 0.75rem;
+    font-family: var(--font-mono);
+    color: var(--pure-snow);
+    background: var(--border-steel);
+    border-radius: var(--border-radius-sm);
+    margin-bottom: 0.75rem;
+}
+
+.experience-role {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: var(--pure-snow);
+    margin-bottom: 0.25rem;
+}
+
+.experience-company {
+    font-size: 1.05rem;
+    font-weight: 500;
+}
+
+.experience-desc {
+    color: var(--muted-silver);
+    font-size: 0.95rem;
+    margin-bottom: 1.25rem;
+}
+
+.experience-highlights {
+    list-style: none;
+}
+
+.experience-highlights li {
+    position: relative;
+    padding-left: 1.25rem;
+    margin-bottom: 0.75rem;
+    font-size: 0.9rem;
+    color: var(--muted-silver);
+    line-height: 1.5;
+}
+
+.experience-highlights li::before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: var(--cyber-teal);
+    font-family: var(--font-mono);
+}
+
+.experience-highlights li:last-child {
+    margin-bottom: 0;
+}
+
+.experience-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 1.5rem;
+}
+
 /* 10. LAYOUT RESPONSIVO */
 
 /* Dispositivos Móveis (Ajustes de Responsividade) */
@@ -1061,9 +1191,27 @@ ul {
     }
     
     .about-section,
+    .experience-section,
     .projects-section,
     .contact-section {
         padding: 5rem 0;
+    }
+    
+    .timeline-container {
+        padding-left: 1.5rem;
+        margin-top: 3rem;
+    }
+    
+    .timeline-dot-outer {
+        left: -1.85rem;
+    }
+    
+    .timeline-content {
+        padding: 1.5rem;
+    }
+    
+    .experience-role {
+        font-size: 1.2rem;
     }
     
     .section-title {

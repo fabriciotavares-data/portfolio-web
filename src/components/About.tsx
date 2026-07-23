@@ -8,10 +8,10 @@ export const About = () => {
           {/* Coluna Texto */}
           <div className="about-text-column">
             <p className="about-lead">
-              Minha jornada profissional vive na exata interseção entre a engenharia de software e a ciência de dados. Acredito firmemente que um dado só é verdadeiramente poderoso quando é compreensível e acionável. Por isso, me especializei em unir a precisão matemática e estatística da análise de dados à sofisticação e fluidez do desenvolvimento front-end moderno.
+              Minha jornada profissional conecta a comunicação estratégica ao poder dos dados e da tecnologia. Com formação em tecnologia em andamento (previsão de conclusão em 2027), foco meus estudos e projetos práticos na criação de soluções de análise de dados, automação de processos e desenvolvimento de aplicações web modernas.
             </p>
             <p className="about-body">
-              Com sólida experiência na construção de interfaces reativas utilizando frameworks modernos e na manipulação avançada de pipelines de dados, crio soluções completas de ponta a ponta. Minha missão diária é extrair insights valiosos de fontes complexas e traduzi-los em experiências digitais limpas, rápidas e acessíveis, ajudando empresas a tomarem decisões de negócio inteligentes e baseadas em evidências.
+              Atualmente atuo como Monitor de Eventos Infantis (Freelancer), exercitando diariamente inteligência emocional, oratória e gestão de crise. Minhas experiências anteriores proporcionaram forte disciplina operacional e uso avançado de Excel (no setor administrativo) e alta habilidade de negociação e foco no cliente (no setor imobiliário). Unindo essa facilidade relacional e dinamismo a conhecimentos em Python, SQL e desenvolvimento web, busco posições de estágio ou trainee para gerar valor prático.
             </p>
           </div>
           

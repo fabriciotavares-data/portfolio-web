@@ -8,7 +8,7 @@ export const Hero = () => {
           <span className="gradient-text">Construindo o Futuro da Web Visual.</span>
         </h1>
         <p className="hero-subheading">
-          Olá, eu sou um Desenvolvedor Front-End &amp; Analista de Dados. Especialista em projetar aplicações web de alto desempenho, construir interfaces elegantes e traduzir grandes volumes de dados complexos em visualizações intuitivas e acionáveis.
+          Olá, eu sou Desenvolvedor &amp; Analista de Dados em formação (conclusão em 2027). Especialista em automatizar fluxos de trabalho, construir interfaces modernas e transformar dados em decisões corporativas eficientes. Atualmente buscando posições de Estágio ou Trainee.
         </p>
         <div className="hero-actions">
           <a href="#projects" className="btn btn-primary" id="btn-view-projects" aria-label="Navegar até a seção de projetos e portfólio">
