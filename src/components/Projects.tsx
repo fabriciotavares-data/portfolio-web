@@ -75,18 +75,7 @@ export const Projects = () => {
                     href={project.githubUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="btn btn-secondary"
-                    style={{
-                      alignSelf: 'flex-start',
-                      padding: '6px 12px',
-                      fontSize: '11px',
-                      textDecoration: 'none',
-                      display: 'inline-flex',
-                      alignItems: 'center',
-                      gap: '4px',
-                      marginTop: '4px',
-                      border: '1px solid var(--border)'
-                    }}
+                    className="btn btn-secondary project-github-btn"
                   >
                     Ver no GitHub →
                   </a>

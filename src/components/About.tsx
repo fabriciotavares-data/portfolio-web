@@ -8,10 +8,13 @@ export const About = () => {
           {/* Coluna Texto */}
           <div className="about-text-column">
             <p className="about-lead">
-              Minha jornada profissional conecta a comunicação estratégica ao poder dos dados e da tecnologia. Com formação em tecnologia em andamento (previsão de conclusão em 2027), foco meus estudos e projetos práticos na criação de soluções de análise de dados, automação de processos e desenvolvimento de aplicações web modernas.
+              Conecto a inteligência analítica de dados à precisão do desenvolvimento Front-End. Em minha formação tecnológica em andamento (previsão de conclusão em 2027), desenvolvo soluções orientadas a negócios: da modelagem preditiva ao dashboard interativo em React.
             </p>
             <p className="about-body">
-              Atualmente atuo como Monitor de Eventos Infantis (Freelancer), exercitando diariamente inteligência emocional, oratória e gestão de crise. Minhas experiências anteriores proporcionaram forte disciplina operacional e uso avançado de Excel (no setor administrativo) e alta habilidade de negociação e foco no cliente (no setor imobiliário). Unindo essa facilidade relacional e dinamismo a conhecimentos em Python, SQL e desenvolvimento web, busco posições de estágio ou trainee para gerar valor prático.
+              Minha trajetória combina competências relacionais sólidas e facilidade de comunicação — refinadas no atendimento comercial imobiliário e na mediação social em eventos — com rigor operacional e tratamento de dados no setor administrativo.
+            </p>
+            <p className="about-body">
+              Unindo essa versatilidade relacional ao conhecimento em Python, SQL, Machine Learning e desenvolvimento web moderno, busco oportunidades de Estágio ou Trainee para transformar volumes de dados em dashboards acessíveis e valor estratégico imediato.
             </p>
           </div>
           

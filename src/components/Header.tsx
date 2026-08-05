@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,6 +11,26 @@ export const Header = () => {
     setIsMenuOpen(false);
   };
 
+  useEffect(() => {
+    if (isMenuOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        closeMenu();
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => {
+      document.body.style.overflow = '';
+      window.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [isMenuOpen]);
+
   return (
     <header className="main-header">
       <div className="header-container">
@@ -22,13 +42,20 @@ export const Header = () => {
           className={`mobile-menu-toggle ${isMenuOpen ? 'open' : ''}`}
           aria-controls="primary-navigation" 
           aria-expanded={isMenuOpen} 
-          aria-label="Abrir menu de navegação"
+          aria-label={isMenuOpen ? "Fechar menu de navegação" : "Abrir menu de navegação"}
           onClick={toggleMenu}
         >
           <span className="bar"></span>
           <span className="bar"></span>
           <span className="bar"></span>
         </button>
+
+        {/* Overlay escuro do menu mobile */}
+        <div 
+          className={`mobile-menu-overlay ${isMenuOpen ? 'active' : ''}`} 
+          onClick={closeMenu}
+          aria-hidden="true"
+        />
 
         <nav id="primary-navigation" className={`nav-menu ${isMenuOpen ? 'active' : ''}`} aria-label="Menu de Navegação Principal">
           <ul className="nav-list">

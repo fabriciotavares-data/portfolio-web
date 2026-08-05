@@ -4,11 +4,11 @@ export const Hero = () => {
       <div className="hero-bg-glow" aria-hidden="true"></div>
       <div className="container hero-container">
         <h1 id="hero-title" className="hero-headline">
-          Transformando Dados em Interfaces. <br />
-          <span className="gradient-text">Construindo o Futuro da Web Visual.</span>
+          Data Science &amp; Front-End: <br className="hero-br" />
+          <span className="gradient-text">Transformando Dados em Decisões de Negócio.</span>
         </h1>
         <p className="hero-subheading">
-          Olá, eu sou Desenvolvedor &amp; Analista de Dados em formação (conclusão em 2027). Especialista em automatizar fluxos de trabalho, construir interfaces modernas e transformar dados em decisões corporativas eficientes. Atualmente buscando posições de Estágio ou Trainee.
+          Desenvolvedor &amp; Analista de Dados em formação (conclusão em 2027). Especialista em construir dashboards inteligentes, modelos preditivos de Machine Learning e interfaces web de alto impacto visual. Buscando posições de Estágio ou Trainee para gerar valor prático desde o primeiro dia.
         </p>
         <div className="hero-actions">
           <a href="#projects" className="btn btn-primary" id="btn-view-projects" aria-label="Navegar até a seção de projetos e portfólio">

@@ -10,41 +10,40 @@ interface ExperienceItem {
 export const Experience = () => {
   const experiences: ExperienceItem[] = [
     {
-      role: 'Monitor de Eventos & Recreação Infantil',
-      company: 'Recreação & Eventos',
-      period: 'Atuação atual (Freelancer)',
-      description: 'Responsável pela gestão de grupos, entretenimento e mediação social em eventos de ritmo acelerado.',
+      role: 'Gestão de Dinâmica Social & Resolução de Crise',
+      company: 'Monitoria de Eventos & Recreação (Freelancer)',
+      period: 'Atuação Atual',
+      description: 'Atuação em ambiente dinâmico de alta energia, liderando turmas e exercitando tomada de decisão rápida sob alta pressão.',
       highlights: [
-        'Coordenação operacional de atividades recreativas de forma ágil e segura.',
-        'Desenvolvimento de alta inteligência interpessoal, mediação de conflitos e comunicação com pais e responsáveis.',
-        'Capacidade de adaptação a públicos dinâmicos e trabalho de alta energia sob pressão.'
+        'Resolução ágil de conflitos e gestão de incidentes em tempo real com foco na segurança e experiência das pessoas.',
+        'Comunicação interpessoal direta e adaptativa para negociação e mediação de expectativas com diferentes perfis.',
+        'Capacidade de coordenação operacional com alto nível de energia e resiliência psicológica.'
       ],
-      skills: ['Comunicação Ativa', 'Inteligência Emocional', 'Oratória', 'Gestão de Crise']
+      skills: ['Comunicação Interpessoal', 'Gestão de Crise sob Pressão', 'Inteligência Emocional', 'Tomada de Decisão Ágil']
     },
     {
-      role: 'Atendimento Comercial & Qualificação de Leads',
-      company: 'Setor Imobiliário',
-      period: 'Experiência anterior',
-      description: 'Atuação estratégica no funil de vendas, sendo o primeiro ponto de contato com potenciais clientes (leads) para empreendimentos residenciais de médio e alto padrão.',
+      role: 'Análise de Funil & Qualificação Comercial de Leads',
+      company: 'Atendimento Comercial Imobiliário',
+      period: 'Experiência Anterior',
+      description: 'Primeiro ponto de contato estratégico com potenciais clientes para empreendimentos residenciais de médio e alto padrão.',
       highlights: [
-        'Qualificação de leads: análise de perfil socioeconômico, necessidades habitacionais e potencial de compra.',
-        'Desenvolvimento de técnicas refinadas de comunicação, escuta ativa e negociação comercial.',
-        'Encaminhamento estratégico e alinhamento de expectativas entre clientes e corretores especialistas para aumentar a taxa de conversão.'
+        'Qualificação criteriosa de leads baseada no diagnóstico de perfil socioeconômico, prioridades de consumo e capacidade financeira.',
+        'Aplicação de técnicas de escuta ativa e comunicação assertiva orientada para valor e conversão.',
+        'Alinhamento estratégico entre clientes e corretores especialistas para otimizar o tempo de atendimento e aumentar taxas de fechamento.'
       ],
-      skills: ['Comunicação', 'Negociação', 'Gestão de Leads', 'Estratégia de Conversão']
+      skills: ['Análise de Funil', 'Qualificação de Leads', 'Negociação Comercial', 'Comunicação Estratégica']
     },
     {
-      role: 'Jovem Aprendiz Administrativo',
-      company: 'Suporte Operacional & Administrativo',
-      period: 'Experiência anterior',
-      description: 'Suporte direto às rotinas administrativas da empresa, com foco na organização de dados internos, controle de fluxos operacionais e suporte financeiro.',
+      role: 'Suporte Operacional & Automação Administrativa',
+      company: 'Jovem Aprendiz Administrativo',
+      period: 'Experiência Anterior',
+      description: 'Suporte às rotinas corporativas com foco em organização de dados internos, relatórios operacionais e controle de caixa.',
       highlights: [
-        'Controle de ponto de funcionários e auxílio no fechamento de folhas de pagamento.',
-        'Elaboração de relatórios gerenciais e acompanhamentos operacionais mensais.',
-        'Desenvolvimento e manutenção de planilhas financeiras de controle de despesas e fluxo de caixa.',
-        'Uso avançado do Microsoft Excel para automação de tarefas manuais e geração de gráficos de acompanhamento.'
+        'Desenvolvimento de planilhas dinâmicas e automação de relatórios gerenciais no Microsoft Excel.',
+        'Tratamento e higienização de bases de dados operacionais para controle de ponto e fechamento de folha.',
+        'Acompanhamento mensal de fluxo de caixa e relatórios financeiros com foco na precisão dos números.'
       ],
-      skills: ['Excel Avançado', 'Organização de Dados', 'Relatórios Mensais', 'Controle Financeiro']
+      skills: ['Excel Avançado', 'Tratamento de Dados', 'Relatórios Gerenciais', 'Automação Operacional']
     }
   ];
 
